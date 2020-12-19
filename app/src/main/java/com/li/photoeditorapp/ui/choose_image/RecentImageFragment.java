@@ -54,7 +54,7 @@ public class RecentImageFragment extends BaseFragment<FragmentRecentImageBinding
             List<ItemImageRecent> tempList = new ArrayList<>();
             List<String> pathImage = new ArrayList<>();
             pathImage = getAllShownImagesPath(getActivity());
-            for (int i = 0; i < pathImage.size(); i++) {
+            for (int i = pathImage.size()-1; i >=0; i--) {
                 ItemImageRecent itemImageRecent = new ItemImageRecent(pathImage.get(i));
                 tempList.add(itemImageRecent);
             }
