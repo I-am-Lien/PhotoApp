@@ -33,6 +33,7 @@
     <string name="Libre_font">Libre</string>
     <string name="Report_font">Report</string>
     <string name="Screen_font">Screen</string>
+    <string name="tahoma">Tahoma</string>
     <string name="Saved">Lưu Thành Công</string>
     <string name="UnSaved">Không thể lưu ảnh</string>
 </resources>

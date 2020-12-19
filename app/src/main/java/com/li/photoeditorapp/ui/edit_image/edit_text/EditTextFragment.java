@@ -111,6 +111,7 @@ public class EditTextFragment extends BaseFragment<FragmentEditTextBinding> impl
         itemTextFontList.add(new ItemTextFont(ResourcesCompat.getFont(getContext(), R.font.libre), getResources().getString(R.string.Libre_font)));
         itemTextFontList.add(new ItemTextFont(ResourcesCompat.getFont(getContext(), R.font.report), getResources().getString(R.string.Report_font)));
         itemTextFontList.add(new ItemTextFont(ResourcesCompat.getFont(getContext(), R.font.silkscreen), getResources().getString(R.string.Screen_font)));
+        itemTextFontList.add(new ItemTextFont(ResourcesCompat.getFont(getContext(), R.font.tahoma), getResources().getString(R.string.tahoma)));
     }
 
     private void setUpFontList() {
