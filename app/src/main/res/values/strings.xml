@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">PhotoEditorApp</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_edit_text">CĂN BẢN</string>
+    <string name="text_insert_image">Chưa có ảnh chỉnh sửa nào.</string>
+    <string name="button_add_image_title">BẮT ĐẦU CHỈNH SỬA</string>
+    <string name="text_permission">Để tạo các hình ảnh đẹp Lumii cần truy câp vào thư viện ảnh của bạn</string>
+    <string name="button_permission_title">CHO PHÉP LƯU CHỮ TRUY CẬP</string>
+    <string name="toolbar_title">Back</string>
+    <string name="share_title">Chia sẻ</string>
+    <string name="set_background_title">Đặt làm nền</string>
+    <string name="setting_title">Các thiết lập</string>
+    <string name="lumii_pro">Lumii Pro</string>
+    <string name="set_language">Chọn ngôn ngữ</string>
+    <string name="vietnam_title">Tiếng Việt</string>
+    <string name="title_share">Chia sẻ với bạn bè</string>
+    <string name="restore_title">Khôi phục mua hàng</string>
+    <string name="security_title">Chính sách bảo mật</string>
+    <string name="toolbar_edit_title">TẠO BỘ LỌC</string>
+    <string name="my_image_title">ĐÃ CHỈNH SỬA</string>
+    <string name="recent_image_title">GẦN ĐÂY</string>
+    <string name="set_permission">Cho phép Lumii truy cập ảnh và phương tiện trên thiết bị của bạn?</string>
+    <string name="cancel">Hủy bỏ</string>
+    <string name="OK">Ok</string>
+    <string name="roboto_font">roboto</string>
+    <string name="Atifact_font">Atifact</string>
+    <string name="Selima_font">Selima</string>
+    <string name="Pecita_font">Pecita</string>
+    <string name="Mono_font">Mono</string>
+    <string name="Amatic_font">Amatic</string>
+    <string name="Libre_font">Libre</string>
+    <string name="Report_font">Report</string>
+    <string name="Screen_font">Screen</string>
+    <string name="Saved">Lưu Thành Công</string>
+    <string name="UnSaved">Không thể lưu ảnh</string>
+</resources>

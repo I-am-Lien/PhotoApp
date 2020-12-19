@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background_app_color">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/tb_edit_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/background_app_color"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:logo="@drawable/icon_back"
+            app:menu="@menu/menu_edit_image_toolbar">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/textview_shape"
+                android:paddingHorizontal="@dimen/padding_horizontal_button"
+                android:paddingVertical="@dimen/padding_text"
+                android:text="@string/toolbar_edit_title"
+                android:textColor="@color/tabTextColor"
+                android:textStyle="bold"
+
+                />
+
+        </androidx.appcompat.widget.Toolbar>
+
+        <FrameLayout
+            android:id="@+id/fr_container"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginHorizontal="@dimen/item_text_font_margint_horizontal"
+            android:background="@color/background_app_color"
+            app:layout_constraintBottom_toTopOf="@id/fr_edit_tool"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tb_edit_image"
+            >
+
+            <FrameLayout
+                android:id="@+id/fr_image_editting"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:background="@android:color/transparent">
+
+                <ImageView
+                    android:id="@+id/img_image_editing"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            </FrameLayout>
+            <FrameLayout
+                android:id="@+id/fr_sb_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center_horizontal"
+                android:layout_marginBottom="@dimen/seekbar_margin_bottom" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/fr_edit_tool"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/margin__layout"
+            android:background="@color/background_app_color"
+            app:layout_constraintBottom_toTopOf="@+id/nav_edit_tool_list"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/fr_container" />
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/nav_edit_tool_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/tabBackGroundColor"
+            app:itemIconTint="@color/nav_color"
+            app:itemTextColor="@color/nav_color"
+            app:labelVisibilityMode="labeled"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:menu="@menu/menu_edit_tool_list" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
