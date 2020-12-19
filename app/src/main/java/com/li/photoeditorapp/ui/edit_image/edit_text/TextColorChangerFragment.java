@@ -53,6 +53,8 @@ public class TextColorChangerFragment extends BaseFragment<FragmentTextColorChan
         colorList.add(Color.MAGENTA);
         colorList.add(Color.RED);
         colorList.add(Color.YELLOW);
+        // add new color
+        colorList.add(Color.GRAY);
     }
 
 }
